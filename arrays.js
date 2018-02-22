@@ -23,3 +23,6 @@ function accessElementInarray(arr,indx){
 function destructivelyRemoveElementFromBeginningOfArray(arr){
   return arr.shift(arr)
 }
+function removeElementFromBeginningOfArray (arr){
+  return arr.slice(1)
+}
