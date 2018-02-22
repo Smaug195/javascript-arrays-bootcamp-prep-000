@@ -14,5 +14,5 @@ function addElementToEndOfArray(arr,add){
   return [...arr,add]
 }
 function descructivelyAddElementToBeginningOfArray(arr,add){
-  return arr.unshift(add)
+  return arr.push(add)
 }
